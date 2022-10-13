@@ -26,7 +26,7 @@ public class Bicicleta
      * @param  e1 Etapa en la que se usa la bicicleta
      * @return    Velocidad de la bicicleta 
      */
-    public int calcularVelocidad(Ciclista c1, Etapa e1)
+    public Double calcularVelocidad(Ciclista c1, Etapa e1)
     {                
         return (c1.getHabilidad() * 100) / (peso * e1.getDificultad());
     }
@@ -38,7 +38,7 @@ public class Bicicleta
      * @param  e1 Etapa en la que se usa la bicicleta
      * @return    Velocidad de la bicicleta 
      */
-    public int calcularTiempo(Ciclista c1, Etapa e1)
+    public Double calcularTiempo(Ciclista c1, Etapa e1)
     {                
         return e1.getDistancia() / (calcularVelocidad(c1, e1) * 60) ;
     }

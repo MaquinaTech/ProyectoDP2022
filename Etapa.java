@@ -8,38 +8,58 @@
 public class Etapa
 {
     // instance variables - replace the example below with your own
-    private int x;
+    private String nombreEtapa;
+    public Double dificultadEtapa;
+    private Double distanciaEtapa;
 
     /**
-     * Constructor for objects of class Etapa
+     * Default constructor for objects of class Etapa
      */
     public Etapa()
     {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int getDificultad()
-    {
-        // put your code here
-        return 1;
+        nombreEtapa = "";
+        dificultadEtapa = 0.0;
+        distanciaEtapa = 0.0;
+        
     }
     
     /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
+     * Parameterized constructor of class Etapa
      */
-    public int getDistancia()
+    public Etapa(String nombreEtapa, Double dificultadEtapa, Double distanciaEtapa)
     {
-        // put your code here
-        return 1;
+        this.nombreEtapa = nombreEtapa;
+        this.dificultadEtapa = dificultadEtapa;
+        this.distanciaEtapa = distanciaEtapa;
     }
+    
+    public void mostrarEtapa()
+    {
+        System.out.println("Nos encontramos ante la etapa "+nombreEtapa+
+        ", la cual tiene una dificultad de "+dificultadEtapa+
+        " y una distancia de "+distanciaEtapa+" kilómetros.");
+        
+    }
+    
+    /**
+     * Método que devuelve la dificultad de una Etapa
+     * 
+     * @return    Dificultad de la etapa
+     */
+    public Double getDificultad()
+    {
+        return dificultadEtapa;
+    }
+    
+    /**
+     * Método que devuelve la distancia de una Etapa 
+     * 
+     * @return   Distancia de la etapa 
+     */
+    public Double getDistancia()
+    { 
+        return distanciaEtapa;
+    }
+
+    
 }
