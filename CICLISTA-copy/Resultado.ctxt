@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Resultado
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Resultado\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=Resultado()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Resultado\r\n
+comment2.params=nombreEtapa\ tiempoEtapa
+comment2.target=Resultado(java.lang.String,\ double)
+comment3.params=
+comment3.target=java.lang.String\ getNombreEtapa()
+comment4.params=nombreEtapa
+comment4.target=void\ setNombreEtapa(java.lang.String)
+comment5.params=
+comment5.target=double\ getTiempoEtapa()
+comment6.params=tiempoEtapa
+comment6.target=void\ setTiempoEtapa(double)
+comment7.params=
+comment7.target=java.lang.String\ toString()
+numComments=8
