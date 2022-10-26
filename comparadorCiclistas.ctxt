@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=comparadorCiclistas
-comment0.text=\r\n\ Clase\ EliminadosComparator,\ comparador\ de\ Tenistas\ seg\u00C3\u00BAn\ su\ posicion\ en\ la\ que\ fue\ eliminado\r\n\ \r\n\ @author\ (Nicol\u00C3\u00A1s\ L\u00C3\u00B3pez\ de\ lerma\ L\u00C3\u00B3pez)\ \r\n\ @version\ (14/10/2021)\r\n
-comment1.params=c1\ c2
-comment1.target=int\ compare(Ciclista,\ Ciclista)
-comment1.text=\r\n\ \r\n
-numComments=2

@@ -1,12 +1,12 @@
 import java.util.*;
 
 /**
- * Clase EliminadosComparator, comparador de Tenistas segÃºn su posicion en la que fue eliminado
+ * Comparador de ciclistas segun su energia
  * 
- * @author (NicolÃ¡s LÃ³pez de lerma LÃ³pez) 
- * @version (14/10/2021)
+ * @author (Nicolas Lopez de lerma Lopez) 
+ * @version (26/10/2022)
  */
-public class comparadorCiclistas implements Comparator<Ciclista> {
+public class comparadorCiclistasEnergia implements Comparator<Ciclista> {
     /**
      * 
      */

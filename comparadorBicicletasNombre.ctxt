@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=comparadorBicicletasNombre
+comment0.text=\r\n\ Comparador\ de\ biciletas\ segun\ su\ nombre\r\n\ \r\n\ @author\ (Nicolas\ Lopez\ de\ lerma\ Lopez)\ \r\n\ @version\ (26/10/2022)\r\n
+comment1.params=b1\ b2
+comment1.target=int\ compare(Bicicleta,\ Bicicleta)
+comment1.text=\r\n\ \r\n
+numComments=2

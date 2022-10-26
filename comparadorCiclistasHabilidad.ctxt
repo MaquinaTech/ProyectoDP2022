@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=comparadorCiclistasHabilidad
+comment0.text=\r\n\ Comparador\ de\ ciclistas\ segun\ su\ habilidad\r\n\ \r\n\ @author\ (Nicolas\ Lopez\ de\ lerma\ Lopez)\ \r\n\ @version\ (26/10/2022)\r\n
+comment1.params=c1\ c2
+comment1.target=int\ compare(Ciclista,\ Ciclista)
+comment1.text=\r\n\ \r\n
+numComments=2

@@ -20,25 +20,25 @@ D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\doc
 UTF-8
 -charset
 UTF-8
-D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Ciclista.java
+D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Equipo.java
 <---- end of javadoc command ---->
-Loading source file D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Ciclista.java...
+Loading source file D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Equipo.java...
 Constructing Javadoc information...
 Standard Doclet version 17.0.4+8
 Building tree for all the packages and classes...
-Generating D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\doc\Ciclista.html...
-D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Ciclista.java:108: warning: @param argument "bici" is not a parameter name.
-     * @param bici Parámetro a establecer al ciclista.
+Generating D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\doc\Equipo.html...
+D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Equipo.java:87: warning: @param argument "comparador" is not a parameter name.
+     * @param comparador Criterio de ordenacion
        ^
-D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Ciclista.java:117: warning: @param argument "bici" is not a parameter name.
-     * @param bici Parámetro a establecer al ciclista.
+D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Equipo.java:90: warning: @return tag cannot be used in method with void return type.
+    public void ordenarCiclistas(){
+                ^
+D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Equipo.java:96: warning: @param argument "comparador" is not a parameter name.
+     * @param comparador Criterio de ordenacion
        ^
-D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Ciclista.java:126: warning: @param argument "bici" is not a parameter name.
-     * @param bici Parámetro a establecer al ciclista.
-       ^
-D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Ciclista.java:135: warning: @param argument "bici" is not a parameter name.
-     * @param bici Parámetro a establecer al ciclista.
-       ^
+D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\Equipo.java:99: warning: @return tag cannot be used in method with void return type.
+    public void ordenarBicicletas(){
+                ^
 Generating D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\doc\package-summary.html...
 Generating D:\CLASE\ProyectoJAVA2022-2023\ProyectoDP2022\doc\index.html...
 4 warnings
