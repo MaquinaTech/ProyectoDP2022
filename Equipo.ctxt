@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Equipo
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Equipo\ here.\r\n\ \r\n\ @author\ (Nicol\u00E1s\ L\u00F3pez\ de\ lerma\ L\u00F3pez)\ \r\n\ @version\ (26/10/2022)\r\n
+comment1.params=
+comment1.target=Equipo()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Equipo\r\n
+comment2.params=nombre\ compCiclistas\ ordenCiclistas\ compBicicletas\ ordenBicicletas
+comment2.target=Equipo(java.lang.String,\ comparadorCiclistas,\ boolean,\ comparadorBicicletas,\ boolean)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ Equipo\r\n
+numComments=3

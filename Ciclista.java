@@ -7,18 +7,17 @@
  */
 public class Ciclista
 {
-    // instance variables - replace the example below with your own
     private String nombre ;
     private Bicicleta bici;
     private double habilidad;
     private double energia;
     private double resultados;
-    private String equipo;
+    private Equipo equipo;
 
     /**
      * Constructor for objects of class Ciclista
      */
-    public Ciclista(String nombre,Bicicleta bici,double habilidad,double energia,double resultados,String equipo)
+    public Ciclista(String nombre,Bicicleta bici,double habilidad,double energia,double resultados,Equipo equipo)
     {
         this.nombre=nombre;
         this.bici=bici;
@@ -79,7 +78,7 @@ public class Ciclista
      * 
      * @return  Nombre del ciclista.
      */
-    public String getEquipo()
+    public Equipo getEquipo()
     {
         return equipo;
     }
@@ -135,7 +134,7 @@ public class Ciclista
      * 
      * @param bici Parámetro a establecer al ciclista.
      */
-    public void setEquipo(String equipo){
+    public void setEquipo(Equipo equipo){
         this.equipo=equipo;
     }
     

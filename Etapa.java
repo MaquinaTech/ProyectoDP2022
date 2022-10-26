@@ -7,7 +7,6 @@
  */
 public class Etapa
 {
-    // instance variables - replace the example below with your own
     private String nombreEtapa;
     public Double dificultadEtapa;
     private Double distanciaEtapa;

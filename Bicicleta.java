@@ -18,6 +18,27 @@ public class Bicicleta
         nombre = "";
         peso = 0;   
     }
+    
+    
+    /**
+     * Devuelve el nombre del bicicleta.
+     * 
+     * @return  Nombre del bicicleta.
+     */
+    public String getNombre()
+    {
+        return nombre;
+    }
+    
+    /**
+     * Devuelve el peso de la bicicleta.
+     * 
+     * @return  Peso del ciclista.
+     */
+    public int getPeso()
+    {
+        return peso;
+    }
 
     /**
      * Método para calcular la velocidad de una bicicleta usada por un Ciclista en una Etapa

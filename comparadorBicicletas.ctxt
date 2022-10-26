@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=comparadorBicicletas
+comment0.text=\r\n\ Clase\ EliminadosComparator,\ comparador\ de\ Tenistas\ seg\u00C3\u00BAn\ su\ posicion\ en\ la\ que\ fue\ eliminado\r\n\ \r\n\ @author\ (Nicolas\ Lopez\ de\ lerma\ Lopez)\ \r\n\ @version\ (14/10/2021)\r\n
+comment1.params=b1\ b2
+comment1.target=int\ compare(Bicicleta,\ Bicicleta)
+comment1.text=\r\n\ \r\n
+numComments=2
