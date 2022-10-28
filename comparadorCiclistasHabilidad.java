@@ -12,9 +12,9 @@ public class comparadorCiclistasHabilidad implements Comparator<Ciclista> {
      */
     public int compare(Ciclista c1, Ciclista c2) 
     {
-        if (c1.getHabilidad() < c2.getHabilidad()) {
+        if (c1.getHabilidadCiclista() < c2.getHabilidadCiclista()) {
             return 1;
-        } else if (c1.getHabilidad() > c2.getHabilidad()) {
+        } else if (c1.getHabilidadCiclista() > c2.getHabilidadCiclista()) {
             return -1;
         } else {
             return 0;

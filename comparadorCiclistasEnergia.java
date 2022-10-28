@@ -12,9 +12,9 @@ public class comparadorCiclistasEnergia implements Comparator<Ciclista> {
      */
     public int compare(Ciclista c1, Ciclista c2) 
     {
-        if (c1.getEnergia() < c2.getEnergia()) {
+        if (c1.getEnergiaCiclista() < c2.getEnergiaCiclista()) {
             return 1;
-        } else if (c1.getEnergia() > c2.getEnergia()) {
+        } else if (c1.getEnergiaCiclista() > c2.getEnergiaCiclista()) {
             return -1;
         } else {
             return 0;

@@ -47,10 +47,9 @@ public class Equipo
      */
     public double getTiempoTotal(){
         double total=0;
-        for (Ciclista p:this.ciclistas) {
-            //total += p.getTiempoTotal();
+        for (Ciclista c:this.ciclistas) {
+            total += c.tiempoTerminadas();
         }
-        
         return total;
     }
     
@@ -131,7 +130,7 @@ public class Equipo
     public ArrayList <Ciclista> enviarCiclistas(){
         int cont = 0;
         for (Ciclista p:this.ciclistas) {
-            p.setBicicleta(this.bicicletas.get(cont));
+            p.setBicicletaCiclista(this.bicicletas.get(cont));
             cont++;
         }
         return this.ciclistas;
