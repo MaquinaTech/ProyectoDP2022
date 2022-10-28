@@ -7,7 +7,6 @@
  */
 public class Etapa
 {
-    // instance variables - replace the example below with your own
     private String nombreEtapa;
     public double dificultadEtapa;
     private int distanciaEtapa;
@@ -34,56 +33,54 @@ public class Etapa
     }
     
         /**
-	 * @return the nombre
-	 */
-	public String getNombreEtapa() {
-		return nombreEtapa;
-	}
+     * @return the nombre
+     */
+    public String getNombreEtapa() {
+        return nombreEtapa;
+    }
 
-	/**
-	 * @param nombre the nombre to set
-	 */
-	public void setNombreEtapa(String nombreEtapa) {
-		this.nombreEtapa = nombreEtapa;
-	}
+    /**
+     * @param nombre the nombre to set
+     */
+    public void setNombreEtapa(String nombreEtapa) {
+        this.nombreEtapa = nombreEtapa;
+    }
 
-	/**
-	 * @return the dificultad
-	 */
-	public double getDificultadEtapa() {
-		return dificultadEtapa;
-	}
+    /**
+     * @return the dificultad
+     */
+    public double getDificultadEtapa() {
+        return dificultadEtapa;
+    }
 
-	/**
-	 * @param dificultad the dificultad to set
-	 */
-	public void setDificultadEtapa(double dificultadEtapa) {
-		this.dificultadEtapa = dificultadEtapa;
-	}
+    /**
+     * @param dificultad the dificultad to set
+     */
+    public void setDificultadEtapa(double dificultadEtapa) {
+        this.dificultadEtapa = dificultadEtapa;
+    }
 
-	/**
-	 * @return the distancia
-	 */
-	public int getDistanciaEtapa() {
-		return distanciaEtapa;
-	}
+    /**
+     * @return the distancia
+     */
+    public int getDistanciaEtapa() {
+        return distanciaEtapa;
+    }
 
-	/**
-	 * @param distancia the distancia to set
-	 */
-	public void setDistanciaEtapa(int distanciaEtapa) {
-		this.distanciaEtapa = distanciaEtapa;
-	}
-	
-	
-	
-	@Override
-	/**
-	 * Muestra la información de la etapa
-	 */
-	public String toString() {
-		return "<etapa:" + this.nombreEtapa + "> <dificultad: " + this.dificultadEtapa
-		+ "> <distancia: " + this.distanciaEtapa + ")>";
-	}
+    /**
+     * @param distancia the distancia to set
+     */
+    public void setDistanciaEtapa(int distanciaEtapa) {
+        this.distanciaEtapa = distanciaEtapa;
+    }
+    
+    @Override
+    /**
+     * Muestra la información de la etapa
+     */
+    public String toString() {
+        return "<etapa:" + this.nombreEtapa + "> <dificultad: " + this.dificultadEtapa
+        + "> <distancia: " + this.distanciaEtapa + ")>";
+    }
     
 }
