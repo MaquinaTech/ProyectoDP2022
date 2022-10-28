@@ -7,9 +7,10 @@
  */
 public class Etapa
 {
+    // instance variables - replace the example below with your own
     private String nombreEtapa;
-    public Double dificultadEtapa;
-    private Double distanciaEtapa;
+    public double dificultadEtapa;
+    private int distanciaEtapa;
 
     /**
      * Default constructor for objects of class Etapa
@@ -18,47 +19,71 @@ public class Etapa
     {
         nombreEtapa = "";
         dificultadEtapa = 0.0;
-        distanciaEtapa = 0.0;
+        distanciaEtapa = 0;
         
     }
     
     /**
      * Parameterized constructor of class Etapa
      */
-    public Etapa(String nombreEtapa, Double dificultadEtapa, Double distanciaEtapa)
+    public Etapa(String nombreEtapa, Double dificultadEtapa, int distanciaEtapa)
     {
         this.nombreEtapa = nombreEtapa;
         this.dificultadEtapa = dificultadEtapa;
         this.distanciaEtapa = distanciaEtapa;
     }
     
-    public void mostrarEtapa()
-    {
-        System.out.println("Nos encontramos ante la etapa "+nombreEtapa+
-        ", la cual tiene una dificultad de "+dificultadEtapa+
-        " y una distancia de "+distanciaEtapa+" kilómetros.");
-        
-    }
-    
-    /**
-     * Método que devuelve la dificultad de una Etapa
-     * 
-     * @return    Dificultad de la etapa
-     */
-    public Double getDificultad()
-    {
-        return dificultadEtapa;
-    }
-    
-    /**
-     * Método que devuelve la distancia de una Etapa 
-     * 
-     * @return   Distancia de la etapa 
-     */
-    public Double getDistancia()
-    { 
-        return distanciaEtapa;
-    }
+        /**
+	 * @return the nombre
+	 */
+	public String getNombreEtapa() {
+		return nombreEtapa;
+	}
 
+	/**
+	 * @param nombre the nombre to set
+	 */
+	public void setNombreEtapa(String nombreEtapa) {
+		this.nombreEtapa = nombreEtapa;
+	}
+
+	/**
+	 * @return the dificultad
+	 */
+	public double getDificultadEtapa() {
+		return dificultadEtapa;
+	}
+
+	/**
+	 * @param dificultad the dificultad to set
+	 */
+	public void setDificultadEtapa(double dificultadEtapa) {
+		this.dificultadEtapa = dificultadEtapa;
+	}
+
+	/**
+	 * @return the distancia
+	 */
+	public int getDistanciaEtapa() {
+		return distanciaEtapa;
+	}
+
+	/**
+	 * @param distancia the distancia to set
+	 */
+	public void setDistanciaEtapa(int distanciaEtapa) {
+		this.distanciaEtapa = distanciaEtapa;
+	}
+	
+	
+	
+	@Override
+	/**
+	 * Muestra la información de la etapa
+	 */
+	public String toString() {
+		return "<etapa:" + this.nombreEtapa + "> <dificultad: " + this.dificultadEtapa
+		+ "> <distancia: " + this.distanciaEtapa + ")>";
+	}
     
 }
