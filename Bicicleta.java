@@ -47,5 +47,11 @@ public class Bicicleta {
 		return "<bicicleta: " + nombre + "> <peso: " + peso + ">) " + "en etapa " + e.getNombreEtapa();
 	}
 	
+	public double calcularVelocidad(Ciclista c, Etapa e) {
+		return (c.getHabilidadCiclista()*100)/(this.peso * e.getDificultadEtapa());
+	}
 	
+	public double tiempoNecesita(Etapa e, Ciclista c){
+        	 return e.getDistanciaEtapa() / (this.calcularVelocidad(c,e) * 60);  
+        }
 }
