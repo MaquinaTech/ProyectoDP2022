@@ -44,7 +44,7 @@ public class Bicicleta {
 	@Override
 	public String toString() {
 		Etapa e = new Etapa();
-		return "<bicicleta: " + nombre + "> <peso: " + peso + ">) " + "en etapa " + e.getNombre();
+		return "<bicicleta: " + nombre + "> <peso: " + peso + ">) " + "en etapa " + e.getNombreEtapa();
 	}
 	
 	
