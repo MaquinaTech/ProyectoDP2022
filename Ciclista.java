@@ -1,5 +1,4 @@
-import java.util.*;
-
+import java.util.ArrayList;
 
 public class Ciclista {
 	// instance variables
@@ -26,13 +25,21 @@ public class Ciclista {
     * Constructor parametrizado de la clase Ciclista
     */
 	public Ciclista(String nombreCiclista, double habilidadCiclista, double energiaCiclista) {
-		super();
 		this.bicicletaCiclista = null;
 		this.energiaCiclista = energiaCiclista;
 		this.equipoCiclista = null;
 		this.habilidadCiclista = habilidadCiclista;
 		this.nombreCiclista = nombreCiclista;
 		this.resultadosCiclista = null;		
+	}
+
+	public Ciclista(String nombreCiclista, double habilidadCiclista, int energiaCiclista, Equipo e) {
+		this.bicicletaCiclista = null;
+		this.energiaCiclista = energiaCiclista;
+		this.equipoCiclista = e;
+		this.habilidadCiclista = habilidadCiclista;
+		this.nombreCiclista = nombreCiclista;
+		this.resultadosCiclista = new ArrayList<>();	
 	}
 
 	/**
@@ -171,8 +178,8 @@ public class Ciclista {
 	public String toString() {
 		return "<ciclista: " + nombreCiclista + "> <energía: "+
 				energiaCiclista + "> <habilidad: " + habilidadCiclista +
-				" > <tiempo acumulado sin abandonar: " + tiempoTerminadas()
-				+ "> <abandonado:" + siAbandono() + "> con bicicleta";
+				" > <tiempo acumulado sin abandonar: " + mediaTiempo()
+				+ "> <abandonado:" + siAbandono() + ">";
 	}
 	
 	public boolean siAbandono() {
@@ -231,6 +238,24 @@ public class Ciclista {
             }
         }
          return nombreEtapa;
-        }
+    }
+    public double ultimoTiempo() {
+    	Resultado resultado = this.resultadosCiclista.get(resultadosCiclista.size()-1);
+    	return resultado.getTiempoEtapa();
+    }
+    
+    public double mediaTiempo() {
+    	double media = 0;
+    	double cont = 0;
+    	for(Resultado resul : resultadosCiclista) {
+    		media+=resul.getTiempoEtapa();
+    		cont++;
+    	}
+    	if (cont == 0) {
+    		cont++;
+    	}
+    	return media/cont;
+    }
+
 	
 }
